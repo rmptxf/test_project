@@ -11,5 +11,8 @@ extern "C" {
 
 void leds_init(void);
 
+#ifdef __cplusplus
+}
+#endif
 
 #endif //LED_DRIVER_H__
